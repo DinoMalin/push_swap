@@ -29,9 +29,6 @@ void	swap(t_list **head, char stack_name, int print)
 		ft_printf("s%c\n", stack_name);
 }
 
-/*
-	Push the first element of B to A
-*/
 void	push(t_list	**head_a, t_list **head_b, int push_a)
 {
 	t_list	*first_a;
