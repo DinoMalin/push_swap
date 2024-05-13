@@ -17,7 +17,7 @@ int	is_sorted(t_list **head)
 	t_list	*first;
 
 	first = *head;
-	while (first->next)
+	while (first && first->next)
 	{
 		if (first->content > first->next->content)
 			return (FALSE);
